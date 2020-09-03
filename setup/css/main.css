@@ -1,0 +1,40 @@
+body{
+    
+    font-size: x-large;
+    font-weight: bold;
+}
+.height{
+    /*height: 1000px;*/
+    min-height: 100vh;
+}
+.title-underline{
+    width:190px;
+    height:8px;
+    margin:0 auto;
+    /*background: blue !important;*/
+}
+.height-80{
+    /*height: 1000px;*/
+    min-height: 80vh;
+}
+.about-picture{
+    background: url(../img/header-bcg-2.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.pic{
+    height:200px;
+}
+.picx{
+    height:500px;
+}
+#filler, #progress{
+    background:linear-gradient(rgb(158, 158, 245),rgba(0,0,0.9));
+    background: url(../img/header-bcg.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
